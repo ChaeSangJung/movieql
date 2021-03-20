@@ -25,3 +25,8 @@ mutation {
   }
 }
 ```
+```
+mutation {
+  deleteMovie(id: 1)
+}
+```
