@@ -17,3 +17,11 @@ query {
   }
 }
 ```
+```
+mutation {
+  addMovie(name: "you me her", score: 10) {
+    name
+    score
+  }
+}
+```
